@@ -345,16 +345,10 @@ ul { list-style: none; }
   .detail-grid { grid-template-columns: 1fr; }
 }
 
-/* Taille du logo dans le menu */
-.logo__img-header {
-  height: 60px;
-  width: auto;
-  object-fit: contain;
-}
-
-/* Taille du logo dans le footer */
-.logo__img-footer {
-  height: 100px;
-  width: auto;
+/* Ciblage direct de l'image pour la forcer à rétrécir */
+.logo img, .logo__img-header {
+  height: 50px !important; /* Force la hauteur à 50px */
+  width: auto !important;  /* Garde les proportions */
+  max-height: 50px;
   object-fit: contain;
 }
