@@ -344,3 +344,17 @@ ul { list-style: none; }
   .services__grid { grid-template-columns: 1fr 1fr; }
   .detail-grid { grid-template-columns: 1fr; }
 }
+
+/* Taille du logo dans le menu */
+.logo__img-header {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Taille du logo dans le footer */
+.logo__img-footer {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
