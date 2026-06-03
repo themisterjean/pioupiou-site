@@ -20,4 +20,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
           server-dir: /www/
-          
+          dangerous-clean-slate: true # <-- Force le robot à vider et remplacer proprement le dossier /www/
