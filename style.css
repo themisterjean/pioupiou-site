@@ -356,7 +356,7 @@ ul { list-style: none; }
 }
 
 /* Ciblage direct de l'image pour la forcer à rétrécir */
-.logo img, .logo__img-header {
+.logo img, .logo__img-header, .logo__img-footer {
   height: 50px !important; /* Force la hauteur à 50px */
   width: auto !important;  /* Garde les proportions */
   max-height: 50px;
